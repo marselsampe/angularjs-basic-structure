@@ -8,6 +8,8 @@ myApp.factory( 'module3Service', ['$q', 'serviceClientManager', module3Service] 
 
 myApp.factory( '$exceptionHandler', errorHandler );
 
+myApp.directive( 'dummyDirective', [dummyDirective] );
+
 shellCtrl.$inject = ['$scope', '$rootScope'];
 mainCtrl.$inject = ['$scope', '$rootScope'];
 menuCtrl.$inject = ['$scope', '$rootScope', '$location'];
