@@ -5,9 +5,13 @@
 		<title>AngularJS basic structure</title>
 	</head>
 	<body ng-app="MyApplication">
-		<!--core-->
+		<!--Angular core-->
 		<script src="reference/angular/angular.js"></script>
-		<!--infrastructure-->
+
+		<!--LIVE-->
+		<!--<script src="reference/MyApp.min.js"></script>-->
+
+		<!--DEVELOPMENT-->
 		<script src="infrastructure/constant.js"></script>
 		<script src="infrastructure/errorHandler.js"></script>
 		<script src="infrastructure/serviceClientManager.js"></script>
@@ -16,7 +20,6 @@
 		<script src="infrastructure/services/module2Service.js"></script>
 		<script src="infrastructure/services/module3Service.js"></script>
 		<script src="infrastructure/directives/dummyDirective.js"></script>
-		<!--controller-->
 		<script src="modules/Common/controllers/shellCtrl.js"></script>
 		<script src="modules/Common/controllers/mainCtrl.js"></script>
 		<script src="modules/Common/controllers/menuCtrl.js"></script>
@@ -25,7 +28,6 @@
 		<script src="modules/Module1/controllers/module1Ctrl.js"></script>
 		<script src="modules/Module2/controllers/module2Ctrl.js"></script>
 		<script src="modules/Module3/controllers/module3Ctrl.js"></script>
-		<!--bootstrapper-->
 		<script src="bootstrapper.js"></script>
 		
 		<div ng-controller="shellCtrl" ng-include="'modules/Common/templates/shell.html'">

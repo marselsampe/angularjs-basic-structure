@@ -1,3 +1,3 @@
 function shellCtrl( $scope, $rootScope ){
-    $scope.viewState = { value : 'Main' }
+    $scope.viewState = { value : 'Login' }
 }

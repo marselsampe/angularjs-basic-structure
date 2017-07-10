@@ -7,6 +7,10 @@
     "angular": "^1.6.5"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
     "http-server": "^0.10.0"
   },
   "scripts": {
