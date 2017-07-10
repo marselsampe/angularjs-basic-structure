@@ -1,0 +1,3 @@
+function mainCtrl( $scope, $rootScope ){
+
+}

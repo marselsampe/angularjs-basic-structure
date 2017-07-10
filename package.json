@@ -1,0 +1,15 @@
+{
+  "name": "angularjs-basic-structure",
+  "version": "0.0.1",
+  "description": "angularjs basic structure that I used for production",
+  "author": "Marsel Sampe Asang",
+  "dependencies": {
+    "angular": "^1.6.5"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
+  }
+}

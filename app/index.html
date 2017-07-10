@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AngularJS basic structure</title>
+	</head>
+	<body ng-app="MyApplication">
+		<!--core-->
+		<script src="reference/angular/angular.js"></script>
+		<!--infrastructure-->
+		<script src="infrastructure/constant.js"></script>
+		<script src="infrastructure/errorHandler.js"></script>
+		<script src="infrastructure/serviceClientManager.js"></script>
+		<script src="infrastructure/services/securityService.js"></script>
+		<script src="infrastructure/services/module1Service.js"></script>
+		<script src="infrastructure/services/module2Service.js"></script>
+		<script src="infrastructure/services/module3Service.js"></script>
+		<!--controller-->
+		<script src="modules/Common/controllers/shellCtrl.js"></script>
+		<script src="modules/Common/controllers/mainCtrl.js"></script>
+		<script src="modules/Common/controllers/menuCtrl.js"></script>
+		<script src="modules/Security/controllers/loginCtrl.js"></script>
+		<script src="modules/Security/controllers/logoutCtrl.js"></script>
+		<script src="modules/Module1/controllers/module1Ctrl.js"></script>
+		<script src="modules/Module2/controllers/module2Ctrl.js"></script>
+		<script src="modules/Module3/controllers/module3Ctrl.js"></script>
+		<!--bootstrapper-->
+		<script src="bootstrapper.js"></script>
+		
+		<div ng-controller="shellCtrl" ng-include="'modules/Common/templates/shell.html'">
+		</div>
+	</body>
+</html>

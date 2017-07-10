@@ -1,0 +1,11 @@
+<div ng-switch="viewState.value">
+  <div ng-switch-when="Login">
+    <div ng-controller="loginCtrl" ng-include="'modules/Security/templates/login.html'"></div>
+  </div>
+  <div ng-switch-when="Main">
+    <div ng-controller="mainCtrl" ng-include="'modules/Common/templates/main.html'"></div>
+  </div>
+  <div ng-switch-default>
+    <div ng-controller="emptyCtrl" ng-include="'modules/Common/templates/empty.html'"></div>
+  </div>
+</div>

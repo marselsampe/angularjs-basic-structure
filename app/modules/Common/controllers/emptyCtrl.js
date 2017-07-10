@@ -1,0 +1,3 @@
+function emptyCtrl( $scope, $rootScope ){
+
+}
